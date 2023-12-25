@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=TestCube
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TestA\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=TestCube()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Test\r\n
+comment2.params=
+comment2.target=Vecteur[]\ creerSommets()
+comment2.text=\r\n\ Cr\u00E9e\ les\ sommets\ d'un\ cube\ centr\u00E9\ sur\ l'origine\ et\ les\ mets\ das\ un\ tableau.\r\n\ @return\ Tableau\ de\ Vecteur\r\n
+comment3.params=pPlan\ pSommets
+comment3.target=void\ dessinerCube(Plan,\ Vecteur[])
+comment3.text=\r\n\ Dessine\ sur\ le\ Plan\ les\ ar\u00EAtes\ du\ cube\ dont\ les\ sommets\ sont\ dans\ le\ tableau\ de\ Vecteur;\r\n\ @param\ pPlan\ \:\ plan\ ou\ effectuer\ le\ dessin\r\n\ @param\ pSommets\ \:\ sommets\ du\ cube\r\n
+comment4.params=pVecteurs\ pTransformation
+comment4.target=void\ appliquer(Vecteur[],\ Matrice)
+comment4.text=\r\n\ Applique\ la\ transformation\ lin\u00E9aire\ \u00E0\ l'ensemble\ des\ vecteurs\ du\ tableau\r\n\ @param\ pVecteurs\ \:\ tableau\ de\ Vecteur\ \u00E0\ transformer\r\n\ @param\ pTransformation\ \:\ transformation\ lin\u00E9aire\ \u00E0\ appliquer\r\n
+comment5.params=
+comment5.target=void\ test()
+comment5.text=\r\n\ Proc\u00E9dure\ de\ test\r\n
+comment6.params=a1\ a2\ a3
+comment6.target=Matrice\ getRotation(double,\ double,\ double)
+numComments=7
