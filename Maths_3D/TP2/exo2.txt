@@ -1,0 +1,12 @@
+1) 
+- Explication des opérations : En python, l'opérateur @ permet de multiplier des matrices entre elles, ce qui a pour effet ici d'enchainer les transformations 
+les une après les autres.
+- Ordre des transformations : L'ordre des transformations à un impact sur le résultat final car les transformations en 3D ne sont pas commutatives.
+Considérons l'exemple suivant : Mise à l'échelle > rotation > projection, cette suite de transformation conserve la géométrie 3D avec mise à l'échelle puis rotation 
+avant d'applatir la forme.
+En revanche, si on considère ce cas : Projection > mise à l'échelle > rotation, le résultat sera une version applatie de l'objet ce qui altère complétement la géométrie
+3D de l'objet.
+2) Parce que les sommets d'origines représentent les coordonnées initiales d'un objet 3D avant qu'une transformation quelconque ne lui soit appliquée. Ces sommets
+servent donc de référence.
+3) Afin de conserver la géométrie ainsi que l'orientation du plan. Ces deux produits vectoriels sont utilisés afin de définir deux vecteurs perpendiculaires à un vecteur 
+normal donné
